@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XPath Playground</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app" class="container">
+        <h1>XPath Playground</h1>
+
+        <label for="input">Input</label>
+        <textarea id="input" rows="10" class="form-control">
+<html>
+    <head>
+        <title>My page</title>
+    </head>
+    <body>
+        <h2>Welcome to my <a href="#">page</a></h2>
+        <p>This is the first paragraph</p>.
+        <!-- this is the end -->
+    </body>
+</html></textarea>
+
+        <label for="xpath">XPath</label>
+        <input class="form-control" type="text" id="xpath" value='//h2/a' />
+
+        <label for="output">Result</label>
+        <div class="html-output"></div>
+        <div class="push"></div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <p>Made with <span class='shub-red'>❤</span> at <a href="https://scrapinghub.com">Scrapinghub</a></p>
+        </div>
+    </footer>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/jquery-xpath/jquery.xpath.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

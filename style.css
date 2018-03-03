@@ -1,0 +1,28 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.html-output .node {
+  margin-bottom: 1em;
+  border-bottom: 1px solid #ddd;
+}
+
+#app {
+  min-height: 100%;
+  margin-bottom: -30px;
+}
+
+footer {
+  height: 30px;
+  margin-top: -30px;
+  text-align: center;
+}
+
+.push {
+  height: 30px;
+}
+
+.shub-red {
+   color: #cc0b0f;
+}
